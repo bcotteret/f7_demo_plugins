@@ -1,10 +1,10 @@
 {
   "name": "f7-demo",
-  "private": true,
-  "version": "0.1.0",
-  "description": "f7-demo",
+  "private": false,
+  "version": "1.0.0",
+  "description": "framework7 demo plugins",
   "repository": "",
-  "license": "UNLICENSED",
+  "license": "Apache-2.0",
   "scripts": {
     "start": "npm run dev",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./build/webpack.config.js",

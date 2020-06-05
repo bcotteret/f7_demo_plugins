@@ -1,6 +1,6 @@
 {
   "name": "io.f7.demo.plugins",
-  "displayName": "f7-demo",
+  "displayName": "F7 Demo",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
@@ -29,9 +29,7 @@
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-wkwebview-file-xhr": {},
       "cordova-plugin-whitelist": {},
-      "phonegap-plugin-barcodescanner": {
-        "ANDROID_SUPPORT_V4_VERSION": "27.+"
-      }
+      "phonegap-plugin-barcodescanner": {}
     },
     "platforms": [
       "ios",
