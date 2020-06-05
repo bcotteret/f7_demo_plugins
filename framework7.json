@@ -1,0 +1,42 @@
+{
+  "cwd": "/media/bcott/Data/Sandbox/f7_demo_plugins",
+  "type": [
+    "web",
+    "pwa",
+    "cordova"
+  ],
+  "name": "f7-demo",
+  "pkg": "io.f7.demo.plugins",
+  "framework": "vue",
+  "template": "blank",
+  "cssPreProcessor": "scss",
+  "bundler": "webpack",
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen",
+      "cordova-plugin-wkwebview-engine"
+    ]
+  },
+  "webpack": {
+    "developmentSourceMap": true,
+    "productionSourceMap": true,
+    "hashAssets": false,
+    "preserveAssetsPaths": false,
+    "inlineAssets": true
+  },
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}
