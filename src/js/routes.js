@@ -2,6 +2,7 @@
 import Home from '../pages/home.vue';
 import Scanner from '../pages/scanner.vue';
 import Camera from '../pages/camera.vue';
+import Localisation from '../pages/localisation.vue';
 
 var routes = [
   {
@@ -15,6 +16,10 @@ var routes = [
   {
     path: '/camera',
     component: Camera,
+  },
+  {
+    path: '/localisation',
+    component: Localisation,
   },
 ];
 

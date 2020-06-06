@@ -2,8 +2,9 @@
 
 This is solely a minimal app to get running F7 and cordova plugins:
 
-* Camera
+* Camera (Cordova plugin)
 * Barcode Scan (Phonegap plugin)
+* Geolocalisation (Cordova Plugin)
 
 ## Scope & requirements
 

@@ -8,12 +8,12 @@
     <!-- Toolbar-->
     <f7-toolbar bottom>
       <f7-link icon-f7="barcode" text="Scan" href="/scanner/"></f7-link>
-      <f7-link @click="openDialog">Right Link</f7-link>
+      <f7-link @click="openDialog">Say Hello</f7-link>
     </f7-toolbar>
     <!-- Page content-->
     <f7-block strong>
       <p>
-        <h3>Demo Framework7 app.</h3> 
+        <h3>Demo Plugins % Framework7 app.</h3> 
         Please use links below.
       </p>
     </f7-block>
@@ -29,7 +29,7 @@
       </f7-list-item>
       <f7-list-item title="Geolocation">
         <f7-icon slot="media" f7="location"></f7-icon>
-        <f7-link href="/scanner/" icon-f7="arrow_right_circle"></f7-link>
+        <f7-link href="/localisation/" icon-f7="arrow_right_circle"></f7-link>
       </f7-list-item>
     </f7-list>
   </f7-page>
