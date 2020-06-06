@@ -3,7 +3,7 @@
   "private": false,
   "version": "1.0.0",
   "description": "framework7 demo plugins",
-  "repository": "",
+  "repository": "https://github.com/bcotteret/f7_demo_plugins",
   "license": "Apache-2.0",
   "scripts": {
     "start": "npm run dev",

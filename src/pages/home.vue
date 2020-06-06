@@ -21,13 +21,15 @@
     <f7-list>
       <f7-list-item title="Barcode Scanner">
         <f7-icon slot="media" f7="barcode"></f7-icon>
-        <f7-link href="/scanner/"></f7-link>
+        <f7-link href="/scanner/" icon-f7="arrow_right_circle"></f7-link>
       </f7-list-item>
       <f7-list-item title="Camera">
         <f7-icon slot="media" f7="camera"></f7-icon>
+        <f7-link href="/camera/" icon-f7="arrow_right_circle"></f7-link>
       </f7-list-item>
       <f7-list-item title="Geolocation">
         <f7-icon slot="media" f7="location"></f7-icon>
+        <f7-link href="/scanner/" icon-f7="arrow_right_circle"></f7-link>
       </f7-list-item>
     </f7-list>
   </f7-page>

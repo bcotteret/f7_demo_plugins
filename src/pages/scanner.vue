@@ -8,7 +8,7 @@
     <!-- Toolbar-->
     <f7-toolbar bottom>
       <f7-link back icon-f7="arrow_left" text="Back"></f7-link>
-      <f7-link>
+      <f7-link href="/camera/">
           Next<f7-icon f7="arrow_right" ></f7-icon>
       </f7-link>
     </f7-toolbar>
@@ -42,15 +42,16 @@ export default {
   },
   methods: {
     scan(){
-      let self = this;
+      let self = this; // refers this to the Vue instance 
       cordova.plugins.barcodeScanner.scan(
         function (result) {
-            self.barcode = result.text;
-            //alert("We got a barcode\n Result: " + result.text + "\n");
+          //alert("We got a barcode\n Result: " + result.text + "\n"); result is JSON object
+            self.barcode = result.text;            
         },
         function (error) {
             alert("Scanning failed: " + error);
         },
+        // Camera options 
         {
             preferFrontCamera : false, // iOS and Android
             showFlipCameraButton : true, // iOS and Android
@@ -69,7 +70,7 @@ export default {
   }
 }
 </script>
-<style lang="scss">
+<style lang="css">
   .info{
     font-size: 1.25rem;
   }
